@@ -1,3 +1,7 @@
+import os
+os.getcwd()
+os.chdir("../")
+
 from urllib.parse import urlparse
 
 import allrank.models.losses as losses
